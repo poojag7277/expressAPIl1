@@ -1,22 +1,18 @@
-const express = require('express')
-const app = express()
-const bodyParser = require("body-parser")
-const port = 5000
+import express from 'express';
+import bodyParser from 'body-parser';
 
-app.get("/",(req,res) =>{
-    res.send("hello frombackend")
+import userRoutes from './routes/users.js'
+
+const app = express();
+const PORT = 5000
+
+app.use(bodyParser.json());
+
+app.get('/', (req, res) => {
+    console.log('[GET ROUTE]');
+    res.send('HELLO FROM HOMEPAGE');
 })
 
-//adding body parser for parser
-app.use(bodyParser.json())
-//this is dummy api
-app.get("/api/v1", (req,res)=> {
-    res.json(
-        {
-            message:"hello from the api version"
-        }
-    )
-})
-app.listen(port,()=>{
-    console.log(`begin from the api of post${port}`)
-})
+app.use('/users', userRoutes);
+
+app.listen(PORT, () => console.log(`Server running on port: http://localhost:${PORT}`));
