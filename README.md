@@ -37,28 +37,4 @@ The key's randomart image is:
 |                o|
 +----[SHA256]-----+
 sdvm8@DESKTOP-8:/mnt/c/Users/SDVM-8/Documents/newProject/expresse-file$ cat /home/sdvm8/.ssh/id_rsa.pub
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDWAWk5yNpOInJbFUg0Lat3EXEXHlUdfMw7oiWeBsT/UzfE04Fi0pLBcivOr99FUK6AffLofN8BE6DMxGN/27bzHB9lBPcZHwy2yWGmRw/XGJiYJZyekqkqbDIswMzNRV7sKtuG2SI91PbyRnTghODbM8XLhhy7INo6EgPNg19Eg1UWoQg7ORq8Y1IZ5IsmrNNAaTUhjnzTrVdVZuk69lLF3cNRymGEXi8RZnmhJV3NL/jgoGMH6IL4Lb9wDG6zYnVYKgrM/0+V+vwC0AUr1OyVmcCpDEinfqpBXeTgDvk1VQXhg7qViN4K02LczWwAaOG9kSXhsm6jm7UFHMh4xR7Kgs/E0lnbpnQ7R8a2Ifspobvcfs1eg031PBnY/fVWShAKAXZmOx0VZ2ttpkFe6j+lFPu8qd4/qIQ1sMdu3wbdM9V+07igeNmqBUjuQmC7T34JRYdvnqlGZYUglSerVj1Uxb29M/F/AZ5amQ8xICav1A0iD3SROp2de3DMZabyZns= sdvm8@DESKTOP-8
-sdvm8@DESKTOP-8:/mnt/c/Users/SDVM-8/Documents/newProject/expresse-file$ git push
-fatal: The current branch main has no upstream branch.
-To push the current branch and set the remote as upstream, use
-
-    git push --set-upstream origin main
-
-sdvm8@DESKTOP-8:/mnt/c/Users/SDVM-8/Documents/newProject/expresse-file$ git push --set-upstream origin main
-The authenticity of host 'github.com (20.207.73.82)' can't be established.
-ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
-This key is not known by any other names
-Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
-Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
-Enumerating objects: 624, done.
-Counting objects: 100% (624/624), done.
-Delta compression using up to 4 threads
-Compressing objects: 100% (584/584), done.
-Writing objects: 100% (624/624), 683.99 KiB | 219.00 KiB/s, done.
-Total 624 (delta 117), reused 0 (delta 0), pack-reused 0
-remote: Resolving deltas: 100% (117/117), done.
-To github.com:poojag7277/sampleExample.git
- * [new branch]      main -> main
-Branch 'main' set up to track remote branch 'main' from 'origin'.
-sdvm8@DESKTOP-8:/mnt/c/Users/SDVM-8/Documents/newProject/expresse-file$
-```
+ssh-rsa key generated here and will be copied and applied in the ssh key section of the github settings account
